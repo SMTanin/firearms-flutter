@@ -688,7 +688,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 Positioned(
-                  top: MediaQuery.of(context).size.height*0.1137438,
+                  top: MediaQuery.of(context).size.height*0.1097438,
                   right: MediaQuery.of(context).size.width*0.08,
                   child: Container(
                     width: MediaQuery.of(context).size.width*0.064,
@@ -704,7 +704,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 Positioned(
-                  top: MediaQuery.of(context).size.height*0.1137438,
+                  top: MediaQuery.of(context).size.height*0.1097438,
                   right: MediaQuery.of(context).size.width*0.165333,
                   child: Container(
                     width: MediaQuery.of(context).size.width*0.0506667,
