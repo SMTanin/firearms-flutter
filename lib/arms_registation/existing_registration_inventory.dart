@@ -175,31 +175,35 @@ class _ExistingRegistrationInventoryPageState extends State<ExistingRegistration
                                       Container(
                                   width: MediaQuery.of(context).size.width*0.296,
                                     height: MediaQuery.of(context).size.height*0.0283251,
-                                        child: FittedBox(
-                                          fit: BoxFit.cover,
-                                          child: Text(
-                                              "Type of Weapon ",
-                                              style: TextStyle(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                                color: Colors.black,
-                                              )
+                                        child: const Center(
+                                          child: FittedBox(
+                                            fit: BoxFit.cover,
+                                            child: Text(
+                                                "Type of Weapon ",
+                                                style: TextStyle(
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Colors.black,
+                                                )
+                                            ),
                                           ),
                                         ),
                                       ),
                                       SizedBox(width: MediaQuery.of(context).size.width*0.0293333),
-                                      Container(
+                                      SizedBox(
                                           width: MediaQuery.of(context).size.width*0.197333,
                                           height: MediaQuery.of(context).size.height*0.0283251,
-                                        child: FittedBox(
-                                          fit: BoxFit.cover,
-                                          child: Text(
-                                              ": Short Gun",
-                                              style: TextStyle(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                                color: Colors.black,
-                                              )
+                                        child: const Center(
+                                          child: FittedBox(
+                                            fit: BoxFit.cover,
+                                            child: Text(
+                                                ": Short Gun",
+                                                style: TextStyle(
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Colors.black,
+                                                )
+                                            ),
                                           ),
                                         ),
                                       ),
@@ -215,7 +219,7 @@ class _ExistingRegistrationInventoryPageState extends State<ExistingRegistration
                                     borderRadius: BorderRadius.circular(12),
                                     border: Border.all(
                                       width: 1,
-                                      color: Color(0x89bfc4bf),
+                                      color: const Color(0x89bfc4bf),
                                     ),
                                   ),
                                   child: Row(
@@ -226,13 +230,16 @@ class _ExistingRegistrationInventoryPageState extends State<ExistingRegistration
                                         height: MediaQuery.of(context).size.height*0.0283251,
                                         child: FittedBox(
                                           fit: BoxFit.cover,
-                                          child: Text(
-                                              "Serial Number ",
-                                              style: TextStyle(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                                color: Colors.black,
-                                              )
+                                          child: Padding(
+                                            padding: const EdgeInsets.only(left: 3),
+                                            child: Text(
+                                                "Serial Number ",
+                                                style: TextStyle(
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Colors.black,
+                                                )
+                                            ),
                                           ),
                                         ),
                                       ),
