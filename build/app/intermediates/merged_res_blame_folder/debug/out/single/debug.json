@@ -1,5 +1,45 @@
 [
     {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xxxhdpi_ph1.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xxxhdpi\\ph1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.firearms.app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.firearms.app-main-20:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.firearms.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.firearms.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xxhdpi_ph1.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xxhdpi\\ph1.png"
+    },
+    {
+        "merged": "com.example.firearms.app-merged_res-26:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.firearms.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-hdpi_ph1.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-hdpi\\ph1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-mdpi_ph1.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-mdpi\\ph1.png"
+    },
+    {
         "merged": "com.example.firearms.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.example.firearms.app-main-20:/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -8,23 +48,23 @@
         "source": "com.example.firearms.app-main-20:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.firearms.app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.firearms.app-main-20:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-xhdpi_ph1.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-xhdpi\\ph1.png"
     },
     {
-        "merged": "com.example.firearms.app-merged_res-26:/drawable-v21_launch_background.xml.flat",
-        "source": "com.example.firearms.app-main-20:/drawable-v21/launch_background.xml"
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\drawable-v21\\launch_background.xml"
     },
     {
-        "merged": "com.example.firearms.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.firearms.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.firearms.app-merged_res-26:/drawable_launch_background.xml.flat",
-        "source": "com.example.firearms.app-main-20:/drawable/launch_background.xml"
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.firearms.app-merged_res-26:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.firearms.app-main-20:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-merged_res-26:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\Sujit\\.gradle\\daemon\\7.5\\com.example.firearms.app-main-20:\\drawable\\launch_background.xml"
     }
 ]
