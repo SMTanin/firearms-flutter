@@ -25,6 +25,7 @@ ADDED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidMa
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:1:1-34:12
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:1:1-34:12
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-34:12
 MERGED from [:local_auth_android] C:\Users\Sujit\StudioProjects\firearms\build\local_auth_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Sujit\StudioProjects\firearms\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
@@ -85,6 +86,8 @@ uses-sdk
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml
+MERGED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:local_auth_android] C:\Users\Sujit\StudioProjects\firearms\build\local_auth_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:local_auth_android] C:\Users\Sujit\StudioProjects\firearms\build\local_auth_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Sujit\StudioProjects\firearms\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
@@ -195,6 +198,40 @@ ADDED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidMa
 		ADDED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:32:13-30
 	android:name
 		ADDED from C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:31:13-44
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:58
+	android:usesPermissionFlags
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-55
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-57
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:38
+	android:maxSdkVersion
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-35
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:38
+	android:maxSdkVersion
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-35
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-58
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:38
+	android:maxSdkVersion
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-35
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:30:5-32:38
+	android:maxSdkVersion
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-35
+	android:name
+		ADDED from [:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-65
 uses-permission#android.permission.USE_FINGERPRINT
 ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 	android:name

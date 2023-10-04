@@ -1,4 +1,4 @@
-#Thu Sep 14 17:29:25 BDT 2023
+#Wed Oct 04 17:17:56 BDT 2023
 base.0=C\:\\Users\\Sujit\\StudioProjects\\firearms\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -13,149 +13,185 @@
 11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 11-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:2:5-71
 11-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:2:22-69
-12    <!-- suppress DeprecatedClassUsageInspection -->
-13    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-13-->[androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
-13-->[androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
-14
-15    <permission
-15-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
-16        android:name="com.example.firearms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
-17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
-18
-19    <uses-permission android:name="com.example.firearms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
-20
-21    <application
-22        android:name="android.app.Application"
-22-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:5:9-42
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:6:9-43
-25        android:label="firearms" >
-25-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:4:9-33
-26        <activity
-26-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:7:9-27:20
-27            android:name="com.example.firearms.MainActivity"
-27-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:8:13-41
-28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:12:13-163
-29            android:exported="true"
-29-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:9:13-36
-30            android:hardwareAccelerated="true"
-30-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:13:13-47
-31            android:launchMode="singleTop"
-31-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:10:13-43
-32            android:theme="@style/LaunchTheme"
-32-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:11:13-47
-33            android:windowSoftInputMode="adjustResize" >
-33-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:14:13-55
-34
-35            <!--
-36                 Specifies an Android theme to apply to this Activity as soon as
-37                 the Android process has started. This theme is visible to the user
-38                 while the Flutter UI initializes. After that, this theme continues
-39                 to determine the Window background behind the Flutter UI.
-40            -->
-41            <meta-data
-41-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:19:13-22:17
-42                android:name="io.flutter.embedding.android.NormalTheme"
-42-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:20:15-70
-43                android:resource="@style/NormalTheme" />
-43-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:21:15-52
-44
-45            <intent-filter>
-45-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:23:13-26:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:24:17-68
-46-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:24:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:25:17-76
-48-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:25:27-74
-49            </intent-filter>
-50        </activity>
-51        <!--
-52             Don't delete the meta-data below.
-53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-54        -->
-55        <meta-data
-55-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:30:9-32:33
-56            android:name="flutterEmbedding"
-56-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:31:13-44
-57            android:value="2" />
-57-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:32:13-30
-58
-59        <uses-library
-59-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-60            android:name="androidx.window.extensions"
-60-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-61            android:required="false" />
-61-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-62        <uses-library
-62-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-63            android:name="androidx.window.sidecar"
-63-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-64            android:required="false" />
-64-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-65
-66        <provider
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
-68            android:authorities="com.example.firearms.androidx-startup"
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
-69            android:exported="false" >
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
-70            <meta-data
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-72                android:value="androidx.startup" />
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-73        </provider>
-74
-75        <receiver
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-77            android:directBootAware="false"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-78            android:enabled="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-79            android:exported="true"
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-80            android:permission="android.permission.DUMP" >
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+12    <!--
+13       New Bluetooth permissions in Android 12
+14          https://developer.android.com/about/versions/12/features/bluetooth-permissions
+15    -->
+16    <uses-permission
+16-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:58
+17        android:name="android.permission.BLUETOOTH_SCAN"
+17-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-57
+18        android:usesPermissionFlags="neverForLocation" />
+18-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-55
+19    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- legacy for Android 11 or lower -->
+19-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-76
+19-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:22-73
+20    <uses-permission
+20-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:38
+21        android:name="android.permission.BLUETOOTH"
+21-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-52
+22        android:maxSdkVersion="30" />
+22-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-35
+23    <uses-permission
+23-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:38
+24        android:name="android.permission.BLUETOOTH_ADMIN"
+24-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-58
+25        android:maxSdkVersion="30" />
+25-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-35
+26    <uses-permission
+26-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:38
+27        android:name="android.permission.ACCESS_FINE_LOCATION"
+27-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-63
+28        android:maxSdkVersion="30" /> <!-- legacy for Android 9 or lower -->
+28-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-35
+29    <uses-permission
+29-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:30:5-32:38
+30        android:name="android.permission.ACCESS_COARSE_LOCATION"
+30-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-65
+31        android:maxSdkVersion="28" /> <!-- suppress DeprecatedClassUsageInspection -->
+31-->[:flutter_blue_plus] C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-35
+32    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+32-->[androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+32-->[androidx.biometric:biometric:1.1.0] C:\Users\Sujit\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+33
+34    <permission
+34-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.firearms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.firearms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+41-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:5:9-42
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] C:\Users\Sujit\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:6:9-43
+44        android:label="firearms" >
+44-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:4:9-33
+45        <activity
+45-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:7:9-27:20
+46            android:name="com.example.firearms.MainActivity"
+46-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:8:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:12:13-163
+48            android:exported="true"
+48-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:9:13-36
+49            android:hardwareAccelerated="true"
+49-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:13:13-47
+50            android:launchMode="singleTop"
+50-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:10:13-43
+51            android:theme="@style/LaunchTheme"
+51-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:11:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:14:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:19:13-22:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:20:15-70
+62                android:resource="@style/NormalTheme" />
+62-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:21:15-52
+63
+64            <intent-filter>
+64-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:23:13-26:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:24:17-68
+65-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:24:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:25:17-76
+67-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:25:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:30:9-32:33
+75            android:name="flutterEmbedding"
+75-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:31:13-44
+76            android:value="2" />
+76-->C:\Users\Sujit\StudioProjects\firearms\android\app\src\main\AndroidManifest.xml:32:13-30
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\Sujit\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+84
+85        <provider
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+87            android:authorities="com.example.firearms.androidx-startup"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+88            android:exported="false" >
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sujit\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

@@ -1,5 +1,6 @@
 
 import 'package:firearms/arms_registation/arams_registation.dart';
+import 'package:firearms/arms_traking_page/arms_trascking.dart';
 import 'package:firearms/dgitalAramLicence/digital_aram_licence.dart';
 import 'package:firearms/homepage/applyRenew/apply_renew_licence.dart';
 import 'package:firearms/widgets/botom_navigator_bar.dart';
@@ -400,13 +401,24 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                         child: Center(
-                          child: Container(
-                            width: MediaQuery.of(context).size.width*0.0853333,
-                            height: MediaQuery.of(context).size.height*0.0406404,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image:  AssetImage('assets/images/p7.png'),
-                                fit: BoxFit.fill,
+                          child: InkWell(
+                            onTap: (){
+
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) =>   ArmsTracking(title: 'Arms Tracking',)),
+                              );
+
+                            },
+                            child: Container(
+
+                              width: MediaQuery.of(context).size.width*0.0853333,
+                              height: MediaQuery.of(context).size.height*0.0406404,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image:  AssetImage('assets/images/p7.png'),
+                                  fit: BoxFit.fill,
+                                ),
                               ),
                             ),
                           ),

@@ -6909,6 +6909,25 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
+com.boskokg.flutter_blue_plus.AdvertisementParser
+com.boskokg.flutter_blue_plus.BuildConfig
+com.boskokg.flutter_blue_plus.FlutterBluePlusPlugin:
+    private static final java.lang.String NAMESPACE
+    private static final java.lang.String TAG
+com.boskokg.flutter_blue_plus.MessageMaker:
+    public void <init>()
+    static java.util.HashMap bmAdvertisementData(android.bluetooth.BluetoothDevice,byte[],int)
+com.boskokg.flutter_blue_plus.R$attr
+com.boskokg.flutter_blue_plus.R$color
+com.boskokg.flutter_blue_plus.R$dimen
+com.boskokg.flutter_blue_plus.R$drawable
+com.boskokg.flutter_blue_plus.R$id
+com.boskokg.flutter_blue_plus.R$integer
+com.boskokg.flutter_blue_plus.R$layout
+com.boskokg.flutter_blue_plus.R$string
+com.boskokg.flutter_blue_plus.R$style
+com.boskokg.flutter_blue_plus.R$styleable
+com.boskokg.flutter_blue_plus.R
 com.example.firearms.BuildConfig
 com.example.firearms.R$anim
 com.example.firearms.R$animator
@@ -7097,14 +7116,12 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivit
     public void addOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public void addOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
     public void addOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
-    public void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
     void onWindowFocusChanged(boolean)
     public void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener)
     public void removeOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public void removeOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public void removeOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
     public void removeOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
-    public void removeRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineBroadcastReceiverPluginBinding:
     private final android.content.BroadcastReceiver broadcastReceiver
     void <init>(android.content.BroadcastReceiver)
@@ -7304,7 +7321,6 @@ io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterAssets:
     public abstract java.lang.String getAssetFilePathBySubpath(java.lang.String)
     public abstract java.lang.String getAssetFilePathBySubpath(java.lang.String,java.lang.String)
 io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding:
-    public android.content.Context getApplicationContext()
     public io.flutter.embedding.engine.FlutterEngineGroup getEngineGroup()
     public io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterAssets getFlutterAssets()
     public io.flutter.embedding.engine.FlutterEngine getFlutterEngine()
@@ -7322,13 +7338,11 @@ io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding:
     public abstract void addOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public abstract void addOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
     public abstract void addOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
-    public abstract void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
     public abstract void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener)
     public abstract void removeOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public abstract void removeOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public abstract void removeOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
     public abstract void removeOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
-    public abstract void removeRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverControlSurface
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverPluginBinding:
     public abstract android.content.BroadcastReceiver getBroadcastReceiver()
@@ -7427,12 +7441,19 @@ io.flutter.plugin.common.BinaryMessenger:
     public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public abstract void send(java.lang.String,java.nio.ByteBuffer)
 io.flutter.plugin.common.ErrorLogResult
-io.flutter.plugin.common.EventChannel$1
-io.flutter.plugin.common.EventChannel$EventSink
-io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler$EventSinkImplementation
-io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler
-io.flutter.plugin.common.EventChannel$StreamHandler
-io.flutter.plugin.common.EventChannel
+io.flutter.plugin.common.EventChannel$EventSink:
+    public abstract void endOfStream()
+    public abstract void error(java.lang.String,java.lang.String,java.lang.Object)
+    public abstract void success(java.lang.Object)
+io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler$EventSinkImplementation:
+    public void endOfStream()
+    public void error(java.lang.String,java.lang.String,java.lang.Object)
+    public void success(java.lang.Object)
+io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler:
+    static synthetic java.util.concurrent.atomic.AtomicReference access$300(io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler)
+io.flutter.plugin.common.EventChannel:
+    private static final java.lang.String TAG
+    static synthetic io.flutter.plugin.common.BinaryMessenger access$400(io.flutter.plugin.common.EventChannel)
 io.flutter.plugin.common.FlutterException:
     private static final java.lang.String TAG
 io.flutter.plugin.common.JSONUtil:
@@ -7443,7 +7464,6 @@ io.flutter.plugin.common.MethodCall:
     public boolean hasArgument(java.lang.String)
 io.flutter.plugin.common.MethodChannel:
     private static final java.lang.String TAG
-    public void <init>(io.flutter.plugin.common.BinaryMessenger,java.lang.String)
     public void resizeChannelBuffer(int)
 io.flutter.plugin.common.PluginRegistry$PluginRegistrantCallback
 io.flutter.plugin.common.PluginRegistry$Registrar

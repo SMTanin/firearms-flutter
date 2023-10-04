@@ -4,6 +4,19 @@
       jars="C:\Users\Sujit\StudioProjects\firearms\build\app\intermediates\flutter\release\libs.jar"
       resolved="__local_aars__:C:\Users\Sujit\StudioProjects\firearms\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
+      name="C:\Users\Sujit\StudioProjects\firearms\android@@:flutter_blue_plus::release"
+      jars="C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\.transforms\0ae105b2c631209fd92dae91b94f0dc6\transformed\out\jars\classes.jar;C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\.transforms\0ae105b2c631209fd92dae91b94f0dc6\transformed\out\jars\libs\R.jar"
+      resolved="com.boskokg.flutter_blue_plus:flutter_blue_plus:unspecified"
+      folder="C:\Users\Sujit\StudioProjects\firearms\build\flutter_blue_plus\.transforms\0ae105b2c631209fd92dae91b94f0dc6\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="C:\Users\Sujit\StudioProjects\firearms\android@@:flutter_plugin_android_lifecycle::release"
       jars="C:\Users\Sujit\StudioProjects\firearms\build\flutter_plugin_android_lifecycle\.transforms\f6e85cc5a4d1b86b10681c436cb65149\transformed\out\jars\classes.jar;C:\Users\Sujit\StudioProjects\firearms\build\flutter_plugin_android_lifecycle\.transforms\f6e85cc5a4d1b86b10681c436cb65149\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"

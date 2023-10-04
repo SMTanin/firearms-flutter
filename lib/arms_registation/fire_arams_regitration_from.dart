@@ -10,7 +10,7 @@ class FireAramsRegFrom extends StatefulWidget {
 }
 
 class _FireAramsRegFromState extends State<FireAramsRegFrom>  {
-  List<int> years = List.generate(40, (index) => DateTime.now().year - index);
+  List<int> years = List.generate(40, (index) => DateTime.now().year + index);
 
   int selectedYear= 2023;
 
