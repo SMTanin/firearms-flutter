@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:2:3-42
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:3-118
+	android:usesPermissionFlags
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:69-115
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:20-68
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:8:20-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:3-93
+	android:maxSdkVersion
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:64-90
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:3-99
+	android:maxSdkVersion
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:70-96
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:20-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:3-104
+	android:maxSdkVersion
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:75-101
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:3-106
+	android:maxSdkVersion
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:77-103
+	android:name
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:20-76
+uses-sdk
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml

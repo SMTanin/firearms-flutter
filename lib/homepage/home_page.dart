@@ -6,6 +6,8 @@ import 'package:firearms/widgets/botom_navigator_bar.dart';
 import 'package:firearms/widgets/gun_rotation.dart';
 import 'package:flutter/material.dart';
 
+import '../arms_tracking/arms_tracking_page.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -371,13 +373,19 @@ class _HomePageState extends State<HomePage> {
                             ],
                           ),
                           child: Center(
-                            child: Container(
-                              width: MediaQuery.of(context).size.width*0.0853333,
-                              height: MediaQuery.of(context).size.height*0.0406404,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image:  AssetImage('assets/images/p6.png'),
-                                  fit: BoxFit.fill,
+                            child: InkWell(
+
+
+
+
+                              child: Container(
+                                width: MediaQuery.of(context).size.width*0.0853333,
+                                height: MediaQuery.of(context).size.height*0.0406404,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image:  AssetImage('assets/images/p6.png'),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                             ),
@@ -401,13 +409,23 @@ class _HomePageState extends State<HomePage> {
                             ],
                           ),
                           child: Center(
-                            child: Container(
-                              width: MediaQuery.of(context).size.width*0.0853333,
-                              height: MediaQuery.of(context).size.height*0.0406404,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image:  AssetImage('assets/images/p7.png'),
-                                  fit: BoxFit.fill,
+                            child: InkWell(
+                              onTap: (){
+
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) =>     ArmsTracking(title: '',)),
+                                );
+
+                              },
+                              child: Container(
+                                width: MediaQuery.of(context).size.width*0.0853333,
+                                height: MediaQuery.of(context).size.height*0.0406404,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image:  AssetImage('assets/images/p7.png'),
+                                    fit: BoxFit.fill,
+                                  ),
                                 ),
                               ),
                             ),

@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boskokg.flutter_blue_plus" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="19" />
+7-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml
+8
+9    <!--
+10       New Bluetooth permissions in Android 12
+11          https://developer.android.com/about/versions/12/features/bluetooth-permissions
+12    -->
+13    <uses-permission
+13-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:3-118
+14        android:name="android.permission.BLUETOOTH_SCAN"
+14-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:20-68
+15        android:usesPermissionFlags="neverForLocation" />
+15-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:7:69-115
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:8:3-74
+16-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:8:20-71
+17
+18    <!-- legacy for Android 11 or lower -->
+19    <uses-permission
+19-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:3-93
+20        android:name="android.permission.BLUETOOTH"
+20-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:20-63
+21        android:maxSdkVersion="30" />
+21-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:11:64-90
+22    <uses-permission
+22-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:3-99
+23        android:name="android.permission.BLUETOOTH_ADMIN"
+23-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:20-69
+24        android:maxSdkVersion="30" />
+24-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:12:70-96
+25    <uses-permission
+25-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:3-104
+26        android:name="android.permission.ACCESS_FINE_LOCATION"
+26-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:20-74
+27        android:maxSdkVersion="30" />
+27-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:13:75-101
+28
+29    <!-- legacy for Android 9 or lower -->
+30    <uses-permission
+30-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:3-106
+31        android:name="android.permission.ACCESS_COARSE_LOCATION"
+31-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:20-76
+32        android:maxSdkVersion="28" />
+32-->C:\Users\Sujit\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_blue_plus-1.7.2\android\src\main\AndroidManifest.xml:16:77-103
+33
+34</manifest>
